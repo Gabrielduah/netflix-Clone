@@ -1,0 +1,36 @@
+.signup {
+    background-color: rgba(0, 0,0, 0.8);
+    border-radius: 5px;
+    text-align: left;
+}
+
+form {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+form input {
+    padding: 15px;
+    color: black;
+    border: none;
+    outline: none;
+}
+
+button{
+    padding: 15px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.email_links:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
